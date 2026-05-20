@@ -1,0 +1,12 @@
+services:
+  agent-lab:
+    build: .
+    container_name: b1-2-agent-lab
+    hostname: b1-2-agent-lab
+    ports:
+      - "15034:15034"
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    tty: true
+    stdin_open: true

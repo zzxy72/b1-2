@@ -1,0 +1,23 @@
+Captured at 2026-05-20 10:54:48 UTC while deadlock-live was still running.
+
+$ ps -ef | grep agent-app-leak | grep -v grep
+agent-a+    9912    9905  0 10:54 ?        00:00:00 /home/agent-admin/agent-app/agent-app-leak
+agent-a+    9949    9912  0 10:54 ?        00:00:00 /home/agent-admin/agent-app/agent-app-leak
+
+$ ps -L -u agent-admin -o pid,tid,ppid,pcpu,pmem,rss,stat,etime,comm | grep agent-app-leak | grep -v grep
+   9912    9912    9905  0.4  0.0  2184 S          00:24 agent-app-leak
+   9949    9949    9912  0.2  0.1 21524 SNl        00:24 agent-app-leak
+   9949   10172    9912  0.0  0.1 21524 SNl        00:16 agent-app-leak
+   9949   10173    9912  0.0  0.1 21524 SNl        00:16 agent-app-leak
+
+$ top -b -H -n 1 -p 9912,9949
+top - 10:54:48 up 2 days,  3:04,  0 user,  load average: 0.12, 0.07, 0.02
+Threads:   4 total,   0 running,   4 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :  16049.5 total,  15472.4 free,    606.1 used,    240.8 buff/cache
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   9912 agent-a+  20   0    2904   2184   1900 S   0.0   0.0   0:00.12 agent-a+
+   9949 agent-a+  30  10  174592  21524  11680 S   0.0   0.1   0:00.06 agent-a+
+  10172 agent-a+  30  10  174592  21524  11680 S   0.0   0.1   0:00.00 agent-a+
+  10173 agent-a+  30  10  174592  21524  11680 S   0.0   0.1   0:00.00 agent-a+

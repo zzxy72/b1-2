@@ -1,0 +1,37 @@
+[case] oom-before
+[env] AGENT_HOME=/home/agent-admin/agent-app AGENT_PORT=15034 AGENT_UPLOAD_DIR=/home/agent-admin/agent-app/upload_files AGENT_KEY_PATH=/home/agent-admin/agent-app/api_keys AGENT_LOG_DIR=/var/log/agent-app MEMORY_LIMIT=64 CPU_MAX_OCCUPY=100 MULTI_THREAD_ENABLE=false
+>>> Starting Agent Boot Sequence...
+[1/6] Checking User Account               [OK]
+   ... Running as service user 'agent-admin' (uid=1001)
+[2/6] Verifying Environment Variables     [OK]
+   ... All required Envs correct
+[3/6] Checking Required Files             [OK]
+   ... Verified 'secret.key' with correct key string.
+[4/6] Checking Port Availability          [OK]
+   ... Port 15034 is available.
+[5/6] Verifying Log Permission            [OK]
+   ... Log directory is writable: /var/log/agent-app
+[6/6] Verifying Mission Environment       [OK]
+   ... MEMORY_LIMIT=64MB, CPU_MAX_OCCUPY=100%, MULTI_THREAD_ENABLE=False
+------------------------------------------------------------
+All Boot Checks Passed!
+Agent READY
+2026-05-20 10:48:49,121 [INFO] [SafetyGuard] Process priority lowered (nice=10).
+2026-05-20 10:48:49,121 [INFO] Agent listening at port 15034
+
+==================================================
+ [ Agent Initiate ] Resource Check 
+==================================================
+ [ MEMORY ] Limit: 64MB 		[ WARNING: Recommend Over 256MB ]
+ [ CPU    ] Limit: 100%  		[ WARNING: Recommend Under 50% ]
+ [ THREAD ] Concurrency: False 		[ OK ]
+--------------------------------------------------
+ >>> SYSTEM STATUS: STABLE. STARTING WORKLOAD MONITORING...
+==================================================
+
+2026-05-20 10:48:51,148 [INFO] [MemoryWorker] Current Heap: 25MB
+2026-05-20 10:48:54,155 [INFO] [MemoryWorker] Current Heap: 50MB
+2026-05-20 10:48:57,180 [INFO] [MemoryWorker] Current Heap: 75MB
+2026-05-20 10:48:57,180 [CRITICAL] [MemoryGuard] Memory limit exceeded (75MB >= 64MB) / (Recommend Over 256MB)
+2026-05-20 10:48:57,180 [CRITICAL] [MemoryGuard] Self-terminating process 215 to prevent system instability.
+[finished] pid=179 exit_observed_at=2026-05-20 10:48:57

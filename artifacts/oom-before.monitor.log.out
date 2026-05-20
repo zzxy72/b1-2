@@ -1,0 +1,120 @@
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 184)
+[WARNING] TCP port 15034 is not in LISTEN state.
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+
+RSS      : 0.0MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/oom-before.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 215)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+215 179 1 3.6 0.1 21524 SN 00:01 agent-app-leak
+RSS      : 21.0MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/oom-before.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 215)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+215 179 1 3.2 0.2 47128 SN 00:02 agent-app-leak
+RSS      : 46.0MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/oom-before.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 215)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+215 179 1 2.1 0.2 47128 SN 00:03 agent-app-leak
+RSS      : 46.0MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/oom-before.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 215)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+215 179 1 1.6 0.2 47128 SN 00:04 agent-app-leak
+RSS      : 46.0MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/oom-before.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 215)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+215 179 1 1.4 0.4 72732 SN 00:05 agent-app-leak
+RSS      : 71.0MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/oom-before.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 215)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+215 179 1 1.2 0.4 72732 SN 00:06 agent-app-leak
+RSS      : 71.0MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/oom-before.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 215)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+215 179 1 1.0 0.4 72732 SN 00:07 agent-app-leak
+RSS      : 71.0MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/oom-before.monitor.log

@@ -1,0 +1,322 @@
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 10931)
+[WARNING] TCP port 15034 is not in LISTEN state.
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+
+RSS      : 0.0MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/deadlock-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 10963)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+10963 10926 1 4.7 0.1 21708 SN 00:01 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/deadlock-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 10963)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+10963 10926 1 2.3 0.1 21708 SN 00:02 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/deadlock-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 10963)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+10963 10926 3 2.4 0.2 47504 SNl 00:03 agent-app-leak
+RSS      : 46.4MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/deadlock-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 10963)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+10963 10926 3 1.8 0.2 47504 SNl 00:04 agent-app-leak
+RSS      : 46.4MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/deadlock-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 10963)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+10963 10926 3 1.4 0.2 47504 SNl 00:05 agent-app-leak
+RSS      : 46.4MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/deadlock-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 10963)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+10963 10926 3 1.8 0.4 73108 SNl 00:06 agent-app-leak
+RSS      : 71.4MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/deadlock-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 10963)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+10963 10926 3 1.5 0.4 73108 SNl 00:07 agent-app-leak
+RSS      : 71.4MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/deadlock-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 10963)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+10963 10926 3 1.3 0.4 73108 SNl 00:08 agent-app-leak
+RSS      : 71.4MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/deadlock-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 10963)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+10963 10926 3 1.6 0.6 98712 SNl 00:09 agent-app-leak
+RSS      : 96.4MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/deadlock-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 10963)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+10963 10926 3 1.4 0.6 98712 SNl 00:10 agent-app-leak
+RSS      : 96.4MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/deadlock-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 10963)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+10963 10926 3 1.5 0.7 124316 SNl 00:11 agent-app-leak
+RSS      : 121.4MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/deadlock-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 10963)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+10963 10926 3 1.4 0.7 124316 SNl 00:13 agent-app-leak
+RSS      : 121.4MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/deadlock-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 10963)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+10963 10926 3 1.3 0.7 124316 SNl 00:14 agent-app-leak
+RSS      : 121.4MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/deadlock-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 10963)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+10963 10926 3 1.5 0.9 149920 SNl 00:15 agent-app-leak
+RSS      : 146.4MB
+DISK Used: 1%
+
+[WARNING] RSS threshold exceeded (146.4MB > 128MB)
+
+[INFO] Log appended: /var/log/agent-app/deadlock-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 10963)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+10963 10926 3 1.5 0.9 149920 SNl 00:16 agent-app-leak
+RSS      : 146.4MB
+DISK Used: 1%
+
+[WARNING] RSS threshold exceeded (146.4MB > 128MB)
+
+[INFO] Log appended: /var/log/agent-app/deadlock-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 10963)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+10963 10926 3 1.4 0.9 149920 SNl 00:17 agent-app-leak
+RSS      : 146.4MB
+DISK Used: 1%
+
+[WARNING] RSS threshold exceeded (146.4MB > 128MB)
+
+[INFO] Log appended: /var/log/agent-app/deadlock-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 10963)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+10963 10926 3 1.5 1.0 175524 SNl 00:18 agent-app-leak
+RSS      : 171.4MB
+DISK Used: 1%
+
+[WARNING] RSS threshold exceeded (171.4MB > 128MB)
+
+[INFO] Log appended: /var/log/agent-app/deadlock-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 10963)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+10963 10926 3 1.4 1.0 175524 SNl 00:19 agent-app-leak
+RSS      : 171.4MB
+DISK Used: 1%
+
+[WARNING] RSS threshold exceeded (171.4MB > 128MB)
+
+[INFO] Log appended: /var/log/agent-app/deadlock-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 10963)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+10963 10926 3 1.3 1.0 175524 SNl 00:20 agent-app-leak
+RSS      : 171.4MB
+DISK Used: 1%
+
+[WARNING] RSS threshold exceeded (171.4MB > 128MB)
+
+[INFO] Log appended: /var/log/agent-app/deadlock-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 10963)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+10963 10926 3 1.4 1.2 201128 SNl 00:21 agent-app-leak
+RSS      : 196.4MB
+DISK Used: 1%
+
+[WARNING] RSS threshold exceeded (196.4MB > 128MB)
+
+[INFO] Log appended: /var/log/agent-app/deadlock-after.monitor.log

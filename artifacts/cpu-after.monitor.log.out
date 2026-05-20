@@ -1,0 +1,720 @@
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5341)
+[WARNING] TCP port 15034 is not in LISTEN state.
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+
+RSS      : 0.0MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 5.6 0.1 21652 SN 00:01 agent-app-leak
+RSS      : 21.1MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 2.7 0.1 21700 SN 00:02 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 1.8 0.1 21700 SN 00:03 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 1.3 0.1 21700 SN 00:04 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 1.2 0.1 21700 SN 00:05 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 1.0 0.1 21700 SN 00:06 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.9 0.1 21700 SN 00:07 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.9 0.1 21700 SN 00:08 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.8 0.1 21700 SN 00:09 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.7 0.1 21700 SN 00:10 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.7 0.1 21700 SN 00:11 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.6 0.1 21700 SN 00:13 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.6 0.1 21700 SN 00:14 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.6 0.1 21700 SN 00:15 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.6 0.1 21700 SN 00:16 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.5 0.1 21700 SN 00:17 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.5 0.1 21700 SN 00:18 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.5 0.1 21700 SN 00:19 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.5 0.1 21700 SN 00:20 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.5 0.1 21700 SN 00:21 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.5 0.1 21700 SN 00:22 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.6 0.1 21700 SN 00:23 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.6 0.1 21700 SN 00:24 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.5 0.1 21700 SN 00:26 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.6 0.1 21700 SN 00:27 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.6 0.1 21700 SN 00:28 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.5 0.1 21700 SN 00:29 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.6 0.1 21700 SN 00:30 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.6 0.1 21700 SN 00:31 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.5 0.1 21700 SN 00:32 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.6 0.1 21700 SN 00:33 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.6 0.1 21700 SN 00:34 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.6 0.1 21700 SN 00:35 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.7 0.1 21700 SN 00:36 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.6 0.1 21700 SN 00:38 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.6 0.1 21700 SN 00:39 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.7 0.1 21700 SN 00:40 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.7 0.1 21700 SN 00:41 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.6 0.1 21700 SN 00:42 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.7 0.1 21700 SN 00:43 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.7 0.1 21700 SN 00:44 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.8 0.1 21700 SN 00:45 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.8 0.1 21700 SN 00:46 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.7 0.1 21700 SN 00:47 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.8 0.1 21700 SN 00:48 agent-app-leak
+RSS      : 21.2MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.8 0.0 13436 SN 00:49 agent-app-leak
+RSS      : 13.1MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log
+====== SYSTEM MONITOR RESULT ======
+
+[HEALTH CHECK]
+Checking process 'agent-app-leak'... [OK] (PID: 5373)
+Checking port 15034... [OK]
+Checking UFW firewall status... [OK]
+
+[PROCESS RESOURCE MONITORING]
+PID PPID NLWP CPU% MEM% RSS_KB STAT ELAPSED COMMAND
+5373 5336 1 0.8 0.0 13436 SN 00:51 agent-app-leak
+RSS      : 13.1MB
+DISK Used: 1%
+
+
+[INFO] Log appended: /var/log/agent-app/cpu-after.monitor.log

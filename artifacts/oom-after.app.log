@@ -1,0 +1,40 @@
+[case] oom-after
+[env] AGENT_HOME=/home/agent-admin/agent-app AGENT_PORT=15034 AGENT_UPLOAD_DIR=/home/agent-admin/agent-app/upload_files AGENT_KEY_PATH=/home/agent-admin/agent-app/api_keys AGENT_LOG_DIR=/var/log/agent-app MEMORY_LIMIT=128 CPU_MAX_OCCUPY=100 MULTI_THREAD_ENABLE=false
+>>> Starting Agent Boot Sequence...
+[1/6] Checking User Account               [OK]
+   ... Running as service user 'agent-admin' (uid=1001)
+[2/6] Verifying Environment Variables     [OK]
+   ... All required Envs correct
+[3/6] Checking Required Files             [OK]
+   ... Verified 'secret.key' with correct key string.
+[4/6] Checking Port Availability          [OK]
+   ... Port 15034 is available.
+[5/6] Verifying Log Permission            [OK]
+   ... Log directory is writable: /var/log/agent-app
+[6/6] Verifying Mission Environment       [OK]
+   ... MEMORY_LIMIT=128MB, CPU_MAX_OCCUPY=100%, MULTI_THREAD_ENABLE=False
+------------------------------------------------------------
+All Boot Checks Passed!
+Agent READY
+2026-05-20 10:49:03,722 [INFO] [SafetyGuard] Process priority lowered (nice=10).
+2026-05-20 10:49:03,723 [INFO] Agent listening at port 15034
+
+==================================================
+ [ Agent Initiate ] Resource Check 
+==================================================
+ [ MEMORY ] Limit: 128MB 		[ WARNING: Recommend Over 256MB ]
+ [ CPU    ] Limit: 100%  		[ WARNING: Recommend Under 50% ]
+ [ THREAD ] Concurrency: False 		[ OK ]
+--------------------------------------------------
+ >>> SYSTEM STATUS: STABLE. STARTING WORKLOAD MONITORING...
+==================================================
+
+2026-05-20 10:49:05,747 [INFO] [MemoryWorker] Current Heap: 25MB
+2026-05-20 10:49:08,774 [INFO] [MemoryWorker] Current Heap: 50MB
+2026-05-20 10:49:11,796 [INFO] [MemoryWorker] Current Heap: 75MB
+2026-05-20 10:49:14,833 [INFO] [MemoryWorker] Current Heap: 100MB
+2026-05-20 10:49:17,859 [INFO] [MemoryWorker] Current Heap: 125MB
+2026-05-20 10:49:20,886 [INFO] [MemoryWorker] Current Heap: 150MB
+2026-05-20 10:49:20,887 [CRITICAL] [MemoryGuard] Memory limit exceeded (150MB >= 128MB) / (Recommend Over 256MB)
+2026-05-20 10:49:20,887 [CRITICAL] [MemoryGuard] Self-terminating process 533 to prevent system instability.
+[finished] pid=496 exit_observed_at=2026-05-20 10:49:20
