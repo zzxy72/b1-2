@@ -16,7 +16,10 @@ su - agent-admin
 
 MEMORY_LIMIT=64 CPU_MAX_OCCUPY=100 MULTI_THREAD_ENABLE=false ~/agent-app/bin/run-agent-case.sh oom-before
 MEMORY_LIMIT=128 CPU_MAX_OCCUPY=100 MULTI_THREAD_ENABLE=false ~/agent-app/bin/run-agent-case.sh oom-after
-MEMORY_LIMIT=512 CPU_MAX_OCCUPY=100 MULTI_THREAD_ENABLE=false ~/agent-app/bin/run-agent-case.sh cpu-after
+
+MEMORY_LIMIT=512 CPU_MAX_OCCUPY=100 MULTI_THREAD_ENABLE=false ~/agent-app/bin/run-agent-case.sh cpu-before
+MEMORY_LIMIT=512 CPU_MAX_OCCUPY=10 MULTI_THREAD_ENABLE=false ~/agent-app/bin/run-agent-case.sh cpu-after
+
 MEMORY_LIMIT=512 CPU_MAX_OCCUPY=10 MULTI_THREAD_ENABLE=true ~/agent-app/bin/run-agent-case.sh deadlock-live
 ```
 

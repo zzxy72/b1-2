@@ -15,22 +15,27 @@ CPU_THRESHOLD="${CPU_THRESHOLD:-20}"
 MEM_RSS_THRESHOLD_MB="${MEM_RSS_THRESHOLD_MB:-128}"
 DISK_THRESHOLD="${DISK_THRESHOLD:-80}"
 
+# 로그 항목에 사용할 타임스탬프 문자열을 반환합니다.
 timestamp() {
   date '+%Y-%m-%d %H:%M:%S'
 }
 
+# 성공 메시지를 출력하며 추가 정보를 함께 표시합니다.
 print_ok() {
   printf '%s\n' "$1 [OK]${2:+ $2}"
 }
 
+# 경고 메시지를 stdout으로 출력합니다.
 print_warning() {
   printf '[WARNING] %s\n' "$1"
 }
 
+# 오류 메시지를 stderr로 출력합니다.
 print_error() {
   printf '[ERROR] %s\n' "$1" >&2
 }
 
+# 로그 디렉터리가 존재하고 쓰기 가능한지 확인합니다.
 ensure_log_dir() {
   if [[ ! -d "$AGENT_LOG_DIR" ]]; then
     print_error "Log directory does not exist: $AGENT_LOG_DIR"
@@ -43,6 +48,7 @@ ensure_log_dir() {
   fi
 }
 
+# 로그 파일이 최대 크기를 초과하면 회전시킵니다.
 rotate_log_if_needed() {
   [[ -f "$LOG_FILE" ]] || return 0
 
@@ -66,6 +72,7 @@ rotate_log_if_needed() {
   rm -f "${LOG_FILE}.$((MAX_LOG_BACKUPS + 1))"
 }
 
+# 모니터링 대상 애플리케이션 프로세스의 PID를 찾습니다 (RSS 기준 가장 높은 것 선택).
 find_app_pid() {
   ps -u "$(id -u)" -o pid=,rss=,args= \
     | awk -v pattern="$APP_PROCESS_PATTERN" '$0 ~ pattern { print $1, $2 }' \
@@ -73,16 +80,19 @@ find_app_pid() {
     | awk 'NR == 1 { print $1 }'
 }
 
+# 지정한 PID의 프로세스 리소스 메트릭을 수집합니다.
 collect_process_metrics() {
   local pid="$1"
   ps -p "$pid" -o pid=,ppid=,nlwp=,pcpu=,pmem=,rss=,stat=,etime=,comm= \
     | awk '{$1=$1; print}'
 }
 
+# 루트 파일 시스템의 디스크 사용량을 수집합니다.
 collect_disk_usage() {
   df -P / | awk 'NR == 2 { gsub(/%/, "", $5); print $5 }'
 }
 
+# 설정된 에이전트 포트가 LISTEN 상태인지 확인합니다.
 check_port() {
   if ss -ltn "( sport = :$AGENT_PORT )" 2>/dev/null | awk 'NR > 1 { found = 1 } END { exit !found }'; then
     print_ok "Checking port $AGENT_PORT..."
@@ -92,6 +102,7 @@ check_port() {
   print_warning "TCP port $AGENT_PORT is not in LISTEN state."
 }
 
+# ufw가 설치된 경우 방화벽 상태를 확인합니다.
 check_firewall() {
   if command -v ufw >/dev/null 2>&1; then
     local ufw_status
@@ -114,6 +125,7 @@ check_firewall() {
   print_warning "Neither ufw nor firewalld was found."
 }
 
+# 숫자형 메트릭이 임계값을 초과하면 경고를 출력합니다.
 warn_if_exceeded() {
   local label="$1"
   local value="$2"
@@ -125,6 +137,7 @@ warn_if_exceeded() {
   fi
 }
 
+# 수집한 프로세스 및 디스크 메트릭을 모니터 로그에 추가합니다.
 append_log() {
   local metrics="$1"
   local disk="$2"
@@ -137,6 +150,7 @@ append_log() {
     "$(timestamp)" "$comm" "$pid" "$ppid" "$nlwp" "$cpu" "$mem" "$rss_mb" "$stat" "$etime" "$disk" >> "$LOG_FILE"
 }
 
+# 모니터 실행의 메인 진입점입니다.
 main() {
   local pid metrics disk rss_mb cpu
 
